@@ -1,13 +1,13 @@
 body {
-    background-color: #f4f4f4;
-    margin-top: 50px;
-    font-family: 'Lato';
+    background-color: #FFE5CC;
+    margin-top: 450px;
+    font-family: 'serif';
 }
 
 .item {
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 15px;
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 20px;
     border: transparent;
     border-radius: 5px;
     box-shadow: 0 0 1em #ccc;
@@ -23,7 +23,7 @@ body {
 }
 
 .toggles {
-    color: black;
+    color: grey;
 }
 
 .name {

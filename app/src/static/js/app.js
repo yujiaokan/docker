@@ -11,6 +11,12 @@ function App() {
     );
 }
 
+function changeBackground(color) {
+   document.body.style.backgroundColor = "#AA0000";
+}
+
+
+
 function TodoListCard() {
     const [items, setItems] = React.useState(null);
 
@@ -96,7 +102,7 @@ function AddItemForm({ onNewItem }) {
                     value={newItem}
                     onChange={e => setNewItem(e.target.value)}
                     type="text"
-                    placeholder="New Item"
+                    placeholder="Add one"
                     aria-describedby="basic-addon1"
                 />
                 <InputGroup.Append>
