@@ -10,8 +10,6 @@ function App() {
         </Container>
     );
 }
-
-
 "use strict";
 var glowInTexts = document.querySelectorAll(".glowIn");
 glowInTexts.forEach(function (glowInText) {
@@ -24,8 +22,9 @@ span.style.animationDelay = i * 0.05 + "s";
 glowInText.append(span);
 });
 });
-
-
+function changeBackground(color) {
+   document.body.style.backgroundColor = "#AA0000";
+}
 
 
 

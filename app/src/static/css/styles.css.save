@@ -1,15 +1,17 @@
 body {
-    
-    align-items: center;
+
+    background-color: #FFE5CC;
+    margin-top: 500px;
+    font-family: 'serif';
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    background-size: cover;
-    background-color: #34cde0;
-    
-
+    align-items: center;
+    background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.8)), url(https://www.javascriptfreecode.com/uploads/pictures/26-1.jpg);
+    background-size: cover
 }
+
 p {
 margin: 0em 5em 4em 5em;
 }
@@ -20,29 +22,6 @@ line-height: 1.8;
 font-family: Lora, serif;
 }
 
-glowIn {
-color: white;
-}
-.glowIn span {
-animation: glow-in 0.8s both;
-}
-
-
-@keyframes glow-in {
-from {
-opacity: 0;
-}
-65% {
-opacity: 1;
-text-shadow: 0 0 25px white;
-}
-75% {
-opacity: 1;
-}
-to {
-opacity: 0.7;
-}
-}
 
 .item {
     background-color: blue;
